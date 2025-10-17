@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+}
+
+.navbar {
+  background-color: darkblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  color: white;
+  padding: 15px;
+}
+
+.navbar ul li a:hover {
+  background-color: blue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* intro section */
+
+.intro-section {
+  width: 100%;
+  min-height: 300px;
+  background-color: rgb(91, 0, 177);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.intro-right img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -4px;
+}
