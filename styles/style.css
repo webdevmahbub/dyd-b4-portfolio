@@ -1,5 +1,6 @@
 * {
   margin: 0px;
+  padding: 0px;
 }
 
 .navbar {
@@ -66,4 +67,49 @@
 .card-border {
   border-left: 2px solid white;
   border-right: 2px solid white;
+}
+/* service section start */
+.services-section {
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: space-evenly;
+}
+.service-card {
+  background-color: #56204c;
+  color: white;
+  width: 220px;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 10px;
+}
+
+.card-fet li {
+  list-style: none;
+}
+.card-fet p {
+  padding: 5px 0px;
+}
+.card-head p {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.service-card:hover {
+  background-color: #56204cf1;
+}
+.card-btn button {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #56204c;
+  cursor: pointer;
 }
